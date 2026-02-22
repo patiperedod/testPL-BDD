@@ -1,0 +1,21 @@
+{
+  "name": "playwright-bdd-demo",
+  "version": "1.0.0",
+  "description": "playwright-bdd-demo",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "cucumber-js",
+    "test2:bdd": "cucumber-js --format html:cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@types/node": "^25.2.3",
+    "playwright": "^1.58.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
